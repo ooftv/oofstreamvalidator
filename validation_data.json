@@ -52,11 +52,35 @@
       "errorReferenceDataID" : 6,
       "errorStatusCode" : -50043,
       "errorRequirementLevel" : 1,
-      "errorDetail" : "Measured: 296.59 kb\/s, Master playlist: 264.00 kb\/s, Error: 12.34%"
+      "errorDetail" : "Measured: 354.04 kb\/s, Master playlist: 264.00 kb\/s, Error: 34.11%"
+    },
+    {
+      "errorComment" : "Measured peak bitrate compared to master playlist declared value exceeds error tolerance",
+      "errorDomain" : "ValidatorErrorDomain",
+      "errorReferenceDataID" : 2,
+      "errorStatusCode" : -50043,
+      "errorRequirementLevel" : 1,
+      "errorDetail" : "Measured: 2964.39 kb\/s, Master playlist: 2628.00 kb\/s, Error: 12.80%"
+    },
+    {
+      "errorComment" : "Measured peak bitrate compared to master playlist declared value exceeds error tolerance",
+      "errorDomain" : "ValidatorErrorDomain",
+      "errorReferenceDataID" : 3,
+      "errorStatusCode" : -50043,
+      "errorRequirementLevel" : 1,
+      "errorDetail" : "Measured: 1324.03 kb\/s, Master playlist: 1128.00 kb\/s, Error: 17.38%"
+    },
+    {
+      "errorComment" : "Measured peak bitrate compared to master playlist declared value exceeds error tolerance",
+      "errorDomain" : "ValidatorErrorDomain",
+      "errorReferenceDataID" : 4,
+      "errorStatusCode" : -50043,
+      "errorRequirementLevel" : 1,
+      "errorDetail" : "Measured: 1020.31 kb\/s, Master playlist: 878.00 kb\/s, Error: 16.21%"
     }
   ],
   "validatorVersion" : "1.6 (479.24-200619)",
-  "validatorTimestamp" : "2020-07-14T00:01:16.316-07:00",
+  "validatorTimestamp" : "2020-07-15T14:45:27.895-07:00",
   "dataID" : 0,
   "sslContentDeliveredSecurely" : true,
   "url" : "https:\/\/www.ooftv.net\/live\/oof.m3u8",
@@ -74,11 +98,11 @@
       "processedSegmentsCount" : 2,
       "url" : "oof_240p264kbs\/index.m3u8",
       "hasDiscSequenceTag" : false,
-      "measuredMeanBitrate" : 295070,
+      "measuredMeanBitrate" : 307938,
       "parsedSegmentsCount" : 2,
       "hasEndTag" : false,
       "playlistResolutionHeight" : 240,
-      "measuredMaxBitrate" : 296588,
+      "measuredMaxBitrate" : 354041,
       "independentSegments" : false,
       "audioGroup" : {
         "playlistGroupID" : "AUDIO",
@@ -104,50 +128,50 @@
         {
           "segments" : [
             {
-              "segmentDurationTag" : 5.133,
-              "mediaSequence" : 138003,
+              "segmentDurationTag" : 5,
+              "mediaSequence" : 164448,
               "mimeType" : "video\/mp2t",
               "dataID" : 8,
-              "url" : "1594710098724.ts",
+              "url" : "1594849510895.ts",
               "segmentByteRangeLength" : 0,
               "videoStartsWithIDR" : true,
               "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
               "format" : "transport",
-              "videoFrameRate" : 15.003897116134063,
-              "startTime" : 567.01300000000003,
+              "videoFrameRate" : 15,
+              "startTime" : 968.61300000000006,
               "discontinuityDomain" : 0
             },
             {
-              "segmentDurationTag" : 5,
-              "mediaSequence" : 138004,
+              "segmentDurationTag" : 3.9329999999999998,
+              "mediaSequence" : 164449,
               "mimeType" : "video\/mp2t",
               "dataID" : 9,
-              "url" : "1594710103871.ts",
+              "url" : "1594849515912.ts",
               "segmentByteRangeLength" : 0,
               "videoStartsWithIDR" : true,
               "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
               "format" : "transport",
-              "videoFrameRate" : 15.003000600120025,
-              "startTime" : 572.14599999999996,
+              "videoFrameRate" : 15,
+              "startTime" : 973.61300000000006,
               "discontinuityDomain" : 0
             }
           ],
           "measurements" : {
-            "measuredMaxBitrate" : 296588.79999999999,
-            "measuredMeanBitrate" : 295070.75890654302,
+            "measuredMaxBitrate" : 354041.59999999998,
+            "measuredMeanBitrate" : 307938.65442740399,
             "measuredSegments" : 2
           },
           "tracks" : [
             {
-              "trackVideoIDRStandardDeviation" : 0.32291586855288684,
+              "trackVideoIDRStandardDeviation" : 0.083910004700803648,
               "trackId" : 1,
               "trackVideoWidth" : 426,
               "trackVideoLevel" : 21,
               "trackVideoHeight" : 240,
               "trackMediaType" : "vide",
-              "trackVideoIDRInterval" : 0.65235714285714286,
+              "trackVideoIDRInterval" : 0.97033333333333338,
               "trackVideoIsInterlaced" : false,
               "trackVideoProfile" : 66,
               "trackMediaSubType" : "avc1"
@@ -174,21 +198,11 @@
       "processedSegmentsCount" : 2,
       "url" : "oof_radio\/index.m3u8",
       "hasDiscSequenceTag" : false,
-      "messages" : [
-        {
-          "errorComment" : "Different target durations detected",
-          "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 4,
-          "errorStatusCode" : -50065,
-          "errorRequirementLevel" : 1,
-          "errorDetail" : "Target duration: 5 vs Target duration: 6"
-        }
-      ],
-      "measuredMeanBitrate" : 139495,
+      "measuredMeanBitrate" : 139370,
       "parsedSegmentsCount" : 2,
       "hasEndTag" : false,
       "playlistResolutionHeight" : 0,
-      "measuredMaxBitrate" : 142152,
+      "measuredMaxBitrate" : 139753,
       "independentSegments" : false,
       "audioGroup" : {
         "playlistGroupID" : "AUDIO",
@@ -214,44 +228,35 @@
         {
           "segments" : [
             {
-              "segmentDurationTag" : 5.0119999999999996,
-              "mediaSequence" : 141412,
-              "mimeType" : "video\/mp2t",
-              "dataID" : 14,
-              "url" : "1594710098767.ts",
+              "discontinuityDomain" : 0,
               "segmentByteRangeLength" : 0,
-              "messages" : [
-                {
-                  "errorComment" : "Playlist vs segment duration mismatch",
-                  "errorDomain" : "ValidatorErrorDomain",
-                  "errorStatusCode" : -50060,
-                  "errorRequirementLevel" : 1,
-                  "errorDetail" : "Segment duration 4.9070, Playlist duration: 5.0120"
-                }
-              ],
-              "sslContentDeliveredSecurely" : true,
-              "segmentByteRangeOffset" : 0,
               "format" : "transport",
-              "startTime" : 567.44799999999998,
-              "discontinuityDomain" : 0
+              "url" : "1594849510635.ts",
+              "mimeType" : "video\/mp2t",
+              "dataID" : 10,
+              "segmentDurationTag" : 5.0149999999999997,
+              "mediaSequence" : 169173,
+              "startTime" : 968.59799999999996,
+              "sslContentDeliveredSecurely" : true,
+              "segmentByteRangeOffset" : 0
             },
             {
               "discontinuityDomain" : 0,
               "segmentByteRangeLength" : 0,
               "format" : "transport",
-              "url" : "1594710103781.ts",
+              "url" : "1594849515631.ts",
               "mimeType" : "video\/mp2t",
-              "dataID" : 15,
-              "segmentDurationTag" : 5.0149999999999997,
-              "mediaSequence" : 141413,
-              "startTime" : 572.35500000000002,
+              "dataID" : 11,
+              "segmentDurationTag" : 4.2439999999999998,
+              "mediaSequence" : 169174,
+              "startTime" : 973.65183333333334,
               "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0
             }
           ],
           "measurements" : {
-            "measuredMaxBitrate" : 142152.74177467599,
-            "measuredMeanBitrate" : 139495.36252119279,
+            "measuredMaxBitrate" : 139753.53938185444,
+            "measuredMeanBitrate" : 139370.55837563451,
             "measuredSegments" : 2
           },
           "tracks" : [
@@ -274,14 +279,40 @@
     {
       "videoRangeKey" : "Unknown",
       "mimeType" : "application\/vnd.apple.mpegurl",
-      "processedSegmentsCount" : 0,
+      "processedSegmentsCount" : 2,
       "url" : "oof_720p2628kbs\/index.m3u8",
       "hasDiscSequenceTag" : false,
-      "measuredMeanBitrate" : 0,
+      "messages" : [
+        {
+          "errorComment" : "Different target durations detected",
+          "errorDomain" : "ValidatorErrorDomain",
+          "errorReferenceDataID" : 6,
+          "errorStatusCode" : -50065,
+          "errorRequirementLevel" : 1,
+          "errorDetail" : "Target duration: 6 vs Target duration: 5"
+        },
+        {
+          "errorComment" : "Different target durations detected",
+          "errorDomain" : "ValidatorErrorDomain",
+          "errorReferenceDataID" : 7,
+          "errorStatusCode" : -50065,
+          "errorRequirementLevel" : 1,
+          "errorDetail" : "Target duration: 6 vs Target duration: 5"
+        },
+        {
+          "errorComment" : "Different target durations detected",
+          "errorDomain" : "ValidatorErrorDomain",
+          "errorReferenceDataID" : 5,
+          "errorStatusCode" : -50065,
+          "errorRequirementLevel" : 1,
+          "errorDetail" : "Target duration: 6 vs Target duration: 5"
+        }
+      ],
+      "measuredMeanBitrate" : 2715768,
       "parsedSegmentsCount" : 2,
       "hasEndTag" : false,
       "playlistResolutionHeight" : 720,
-      "measuredMaxBitrate" : 0,
+      "measuredMaxBitrate" : 2964394,
       "independentSegments" : false,
       "audioGroup" : {
         "playlistGroupID" : "AUDIO",
@@ -307,62 +338,107 @@
         {
           "segments" : [
             {
-              "discontinuityDomain" : 0,
+              "segmentDurationTag" : 5.9669999999999996,
+              "mediaSequence" : 164315,
+              "mimeType" : "video\/mp2t",
+              "dataID" : 16,
+              "url" : "1594849510628.ts",
               "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
-              "dataID" : 10,
-              "processed" : false,
-              "segmentDurationTag" : 5.0659999999999998,
-              "mediaSequence" : 137920,
-              "url" : "1594710098030.ts"
+              "format" : "transport",
+              "videoFrameRate" : 30.003352329869259,
+              "startTime" : 968.54600000000005,
+              "discontinuityDomain" : 0
             },
             {
-              "discontinuityDomain" : 0,
+              "segmentDurationTag" : 3.266,
+              "mediaSequence" : 164316,
+              "mimeType" : "video\/mp2t",
+              "dataID" : 17,
+              "url" : "1594849516601.ts",
               "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
-              "dataID" : 11,
-              "processed" : false,
-              "segmentDurationTag" : 5.367,
-              "mediaSequence" : 137921,
-              "url" : "1594710103071.ts"
+              "format" : "transport",
+              "videoFrameRate" : 29.705971506517127,
+              "startTime" : 974.51300000000003,
+              "discontinuityDomain" : 0
             }
           ],
           "measurements" : {
-            "measuredMaxBitrate" : 0,
-            "measuredMeanBitrate" : 0,
-            "measuredSegments" : 0
+            "measuredMaxBitrate" : 2964394.8382771914,
+            "measuredMeanBitrate" : 2715768.2226795191,
+            "measuredSegments" : 2
           },
           "tracks" : [
-
+            {
+              "trackVideoIDRStandardDeviation" : 0.074859044498376243,
+              "trackId" : 1,
+              "trackVideoWidth" : 1280,
+              "trackVideoLevel" : 31,
+              "trackVideoHeight" : 720,
+              "trackMediaType" : "vide",
+              "trackVideoIDRInterval" : 0.97411111111111115,
+              "trackVideoIsInterlaced" : false,
+              "trackVideoProfile" : 66,
+              "trackMediaSubType" : "avc1"
+            },
+            {
+              "trackMediaType" : "soun",
+              "trackAudioChannelCount" : 2,
+              "trackId" : 2,
+              "trackAudioSampleRate" : 44100,
+              "trackMediaSubType" : "aac ",
+              "trackAudioChannelLayout" : "Stereo (L R)"
+            }
           ]
         }
       ],
       "playlistResolutionWidth" : 1280,
-      "playlistTargetDuration" : 5,
+      "playlistTargetDuration" : 6,
       "gzipEncoded" : false,
       "dataID" : 2
     },
     {
       "videoRangeKey" : "Unknown",
       "mimeType" : "application\/vnd.apple.mpegurl",
-      "processedSegmentsCount" : 0,
+      "processedSegmentsCount" : 2,
       "url" : "oof_480p1128kbs\/index.m3u8",
       "hasDiscSequenceTag" : false,
       "messages" : [
         {
           "errorComment" : "Different target durations detected",
           "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 4,
+          "errorReferenceDataID" : 6,
           "errorStatusCode" : -50065,
           "errorRequirementLevel" : 1,
-          "errorDetail" : "Target duration: 5 vs Target duration: 6"
+          "errorDetail" : "Target duration: 6 vs Target duration: 5"
+        },
+        {
+          "errorComment" : "Different target durations detected",
+          "errorDomain" : "ValidatorErrorDomain",
+          "errorReferenceDataID" : 7,
+          "errorStatusCode" : -50065,
+          "errorRequirementLevel" : 1,
+          "errorDetail" : "Target duration: 6 vs Target duration: 5"
+        },
+        {
+          "errorComment" : "Different target durations detected",
+          "errorDomain" : "ValidatorErrorDomain",
+          "errorReferenceDataID" : 5,
+          "errorStatusCode" : -50065,
+          "errorRequirementLevel" : 1,
+          "errorDetail" : "Target duration: 6 vs Target duration: 5"
         }
       ],
-      "measuredMeanBitrate" : 0,
+      "measuredMeanBitrate" : 1203460,
       "parsedSegmentsCount" : 2,
       "hasEndTag" : false,
       "playlistResolutionHeight" : 480,
-      "measuredMaxBitrate" : 0,
+      "measuredMaxBitrate" : 1324034,
       "independentSegments" : false,
       "audioGroup" : {
         "playlistGroupID" : "AUDIO",
@@ -388,45 +464,74 @@
         {
           "segments" : [
             {
-              "discontinuityDomain" : 0,
+              "segmentDurationTag" : 5.9669999999999996,
+              "mediaSequence" : 164336,
+              "mimeType" : "video\/mp2t",
+              "dataID" : 18,
+              "url" : "1594849510629.ts",
               "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
-              "dataID" : 16,
-              "processed" : false,
-              "segmentDurationTag" : 5.0659999999999998,
-              "mediaSequence" : 137927,
-              "url" : "1594710098031.ts"
+              "format" : "transport",
+              "videoFrameRate" : 30.003352329869259,
+              "startTime" : 968.54600000000005,
+              "discontinuityDomain" : 0
             },
             {
-              "discontinuityDomain" : 0,
+              "segmentDurationTag" : 3.266,
+              "mediaSequence" : 164337,
+              "mimeType" : "video\/mp2t",
+              "dataID" : 19,
+              "url" : "1594849516603.ts",
               "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
-              "dataID" : 17,
-              "processed" : false,
-              "segmentDurationTag" : 5.367,
-              "mediaSequence" : 137928,
-              "url" : "1594710103072.ts"
+              "format" : "transport",
+              "videoFrameRate" : 29.705971506517127,
+              "startTime" : 974.51300000000003,
+              "discontinuityDomain" : 0
             }
           ],
           "measurements" : {
-            "measuredMaxBitrate" : 0,
-            "measuredMeanBitrate" : 0,
-            "measuredSegments" : 0
+            "measuredMaxBitrate" : 1324034.188034188,
+            "measuredMeanBitrate" : 1203460.6303476659,
+            "measuredSegments" : 2
           },
           "tracks" : [
-
+            {
+              "trackVideoIDRStandardDeviation" : 0.074859044498376243,
+              "trackId" : 1,
+              "trackVideoWidth" : 854,
+              "trackVideoLevel" : 31,
+              "trackVideoHeight" : 480,
+              "trackMediaType" : "vide",
+              "trackVideoIDRInterval" : 0.97411111111111115,
+              "trackVideoIsInterlaced" : false,
+              "trackVideoProfile" : 66,
+              "trackMediaSubType" : "avc1"
+            },
+            {
+              "trackMediaType" : "soun",
+              "trackAudioChannelCount" : 2,
+              "trackId" : 2,
+              "trackAudioSampleRate" : 44100,
+              "trackMediaSubType" : "aac ",
+              "trackAudioChannelLayout" : "Stereo (L R)"
+            }
           ]
         }
       ],
       "playlistResolutionWidth" : 854,
-      "playlistTargetDuration" : 5,
+      "playlistTargetDuration" : 6,
       "gzipEncoded" : false,
       "dataID" : 3
     },
     {
       "videoRangeKey" : "Unknown",
       "mimeType" : "application\/vnd.apple.mpegurl",
-      "processedSegmentsCount" : 0,
+      "processedSegmentsCount" : 2,
       "url" : "oof_360p878kbs\/index.m3u8",
       "hasDiscSequenceTag" : false,
       "messages" : [
@@ -441,17 +546,17 @@
         {
           "errorComment" : "Different target durations detected",
           "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 2,
+          "errorReferenceDataID" : 7,
           "errorStatusCode" : -50065,
           "errorRequirementLevel" : 1,
           "errorDetail" : "Target duration: 6 vs Target duration: 5"
         }
       ],
-      "measuredMeanBitrate" : 0,
+      "measuredMeanBitrate" : 935825,
       "parsedSegmentsCount" : 2,
       "hasEndTag" : false,
       "playlistResolutionHeight" : 360,
-      "measuredMaxBitrate" : 0,
+      "measuredMaxBitrate" : 1020310,
       "independentSegments" : false,
       "audioGroup" : {
         "playlistGroupID" : "AUDIO",
@@ -477,33 +582,62 @@
         {
           "segments" : [
             {
-              "discontinuityDomain" : 0,
-              "segmentByteRangeLength" : 0,
-              "segmentByteRangeOffset" : 0,
+              "segmentDurationTag" : 5.9669999999999996,
+              "mediaSequence" : 164373,
+              "mimeType" : "video\/mp2t",
               "dataID" : 12,
-              "processed" : false,
-              "segmentDurationTag" : 5.0659999999999998,
-              "mediaSequence" : 137958,
-              "url" : "1594710098031.ts"
+              "url" : "1594849510629.ts",
+              "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
+              "segmentByteRangeOffset" : 0,
+              "format" : "transport",
+              "videoFrameRate" : 30.003352329869259,
+              "startTime" : 968.54600000000005,
+              "discontinuityDomain" : 0
             },
             {
-              "discontinuityDomain" : 0,
-              "segmentByteRangeLength" : 0,
-              "segmentByteRangeOffset" : 0,
+              "segmentDurationTag" : 3.266,
+              "mediaSequence" : 164374,
+              "mimeType" : "video\/mp2t",
               "dataID" : 13,
-              "processed" : false,
-              "segmentDurationTag" : 5.5,
-              "mediaSequence" : 137959,
-              "url" : "1594710103073.ts"
+              "url" : "1594849516606.ts",
+              "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
+              "segmentByteRangeOffset" : 0,
+              "format" : "transport",
+              "videoFrameRate" : 29.705971506517127,
+              "startTime" : 974.51300000000003,
+              "discontinuityDomain" : 0
             }
           ],
           "measurements" : {
-            "measuredMaxBitrate" : 0,
-            "measuredMeanBitrate" : 0,
-            "measuredSegments" : 0
+            "measuredMaxBitrate" : 1020310.3737221385,
+            "measuredMeanBitrate" : 935825.84208816197,
+            "measuredSegments" : 2
           },
           "tracks" : [
-
+            {
+              "trackVideoIDRStandardDeviation" : 0.074859044498376243,
+              "trackId" : 1,
+              "trackVideoWidth" : 640,
+              "trackVideoLevel" : 30,
+              "trackVideoHeight" : 360,
+              "trackMediaType" : "vide",
+              "trackVideoIDRInterval" : 0.97411111111111115,
+              "trackVideoIsInterlaced" : false,
+              "trackVideoProfile" : 66,
+              "trackMediaSubType" : "avc1"
+            },
+            {
+              "trackMediaType" : "soun",
+              "trackAudioChannelCount" : 2,
+              "trackId" : 2,
+              "trackAudioSampleRate" : 44100,
+              "trackMediaSubType" : "aac ",
+              "trackAudioChannelLayout" : "Stereo (L R)"
+            }
           ]
         }
       ],
@@ -515,48 +649,24 @@
     {
       "videoRangeKey" : "Unknown",
       "mimeType" : "application\/vnd.apple.mpegurl",
-      "processedSegmentsCount" : 0,
+      "processedSegmentsCount" : 2,
       "url" : "oof_240p528kbs\/index.m3u8",
       "hasDiscSequenceTag" : false,
       "messages" : [
         {
           "errorComment" : "Different target durations detected",
           "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 6,
+          "errorReferenceDataID" : 4,
           "errorStatusCode" : -50065,
           "errorRequirementLevel" : 1,
-          "errorDetail" : "Target duration: 6 vs Target duration: 5"
-        },
-        {
-          "errorComment" : "Different target durations detected",
-          "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 2,
-          "errorStatusCode" : -50065,
-          "errorRequirementLevel" : 1,
-          "errorDetail" : "Target duration: 6 vs Target duration: 5"
-        },
-        {
-          "errorComment" : "Different target durations detected",
-          "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 7,
-          "errorStatusCode" : -50065,
-          "errorRequirementLevel" : 1,
-          "errorDetail" : "Target duration: 6 vs Target duration: 5"
-        },
-        {
-          "errorComment" : "Different target durations detected",
-          "errorDomain" : "ValidatorErrorDomain",
-          "errorReferenceDataID" : 3,
-          "errorStatusCode" : -50065,
-          "errorRequirementLevel" : 1,
-          "errorDetail" : "Target duration: 6 vs Target duration: 5"
+          "errorDetail" : "Target duration: 5 vs Target duration: 6"
         }
       ],
-      "measuredMeanBitrate" : 0,
+      "measuredMeanBitrate" : 526991,
       "parsedSegmentsCount" : 2,
       "hasEndTag" : false,
       "playlistResolutionHeight" : 240,
-      "measuredMaxBitrate" : 0,
+      "measuredMaxBitrate" : 526991,
       "independentSegments" : false,
       "audioGroup" : {
         "playlistGroupID" : "AUDIO",
@@ -582,38 +692,67 @@
         {
           "segments" : [
             {
-              "discontinuityDomain" : 0,
+              "segmentDurationTag" : 5,
+              "mediaSequence" : 164355,
+              "mimeType" : "video\/mp2t",
+              "dataID" : 14,
+              "url" : "1594849513613.ts",
               "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
-              "dataID" : 18,
-              "processed" : false,
-              "segmentDurationTag" : 5.6660000000000004,
-              "mediaSequence" : 137957,
-              "url" : "1594710098442.ts"
+              "format" : "transport",
+              "videoFrameRate" : 29.794041191761647,
+              "startTime" : 971.54600000000005,
+              "discontinuityDomain" : 0
             },
             {
-              "discontinuityDomain" : 0,
+              "segmentDurationTag" : 1.2330000000000001,
+              "mediaSequence" : 164356,
+              "mimeType" : "video\/mp2t",
+              "dataID" : 15,
+              "url" : "1594849518622.ts",
               "segmentByteRangeLength" : 0,
+              "videoStartsWithIDR" : true,
+              "sslContentDeliveredSecurely" : true,
               "segmentByteRangeOffset" : 0,
-              "dataID" : 19,
-              "processed" : false,
-              "segmentDurationTag" : 5.4000000000000004,
-              "mediaSequence" : 137958,
-              "url" : "1594710104076.ts"
+              "format" : "transport",
+              "videoFrameRate" : 30.015797788309637,
+              "startTime" : 976.54600000000005,
+              "discontinuityDomain" : 0
             }
           ],
           "measurements" : {
-            "measuredMaxBitrate" : 0,
-            "measuredMeanBitrate" : 0,
-            "measuredSegments" : 0
+            "measuredMaxBitrate" : 526991.1759987165,
+            "measuredMeanBitrate" : 526991.1759987165,
+            "measuredSegments" : 2
           },
           "tracks" : [
-
+            {
+              "trackVideoIDRStandardDeviation" : 0.088899600049094057,
+              "trackId" : 1,
+              "trackVideoWidth" : 426,
+              "trackVideoLevel" : 21,
+              "trackVideoHeight" : 240,
+              "trackMediaType" : "vide",
+              "trackVideoIDRInterval" : 0.96116666666666661,
+              "trackVideoIsInterlaced" : false,
+              "trackVideoProfile" : 66,
+              "trackMediaSubType" : "avc1"
+            },
+            {
+              "trackMediaType" : "soun",
+              "trackAudioChannelCount" : 2,
+              "trackId" : 2,
+              "trackAudioSampleRate" : 44100,
+              "trackMediaSubType" : "aac ",
+              "trackAudioChannelLayout" : "Stereo (L R)"
+            }
           ]
         }
       ],
       "playlistResolutionWidth" : 426,
-      "playlistTargetDuration" : 6,
+      "playlistTargetDuration" : 5,
       "gzipEncoded" : false,
       "dataID" : 5
     }

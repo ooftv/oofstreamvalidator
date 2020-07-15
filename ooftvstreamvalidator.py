@@ -1,18 +1,42 @@
-#!/bin/python
+#!/usr/bin/python
 
-import os
+import os, getopt, sys
 from datetime import datetime
+
+# Default variables
+testTime = 1
+testURL = "https://www.ooftv.net/live/oof.m3u8"
+
+# handle command line arguments (if any)
+print '(sys.argv)=', (sys.argv)
+print 'Number of arguments:', len(sys.argv), 'arguments.'
+full_cmd_arguments = sys.argv
+argument_list = full_cmd_arguments[1:]
+short_options = "i:t:"
+long_options = ["input", "time"]
+
+try:
+    arguments, values = getopt.getopt(argument_list, short_options, long_options)
+except getopt.error as err:
+    print (str(err))
+    sys.ext(2)
+
+for current_argument, current_value in arguments:
+    if current_argument in ("-i", "--input"):
+        print ("input url detected:", current_argument, current_value)
+        testURL = current_value
+        print ("Current URL = ", testURL)
+    elif current_argument in ("-t", "--time"):
+        print ("time input detected:", current_argument, current_value )
+        testTime = current_value
+        print ("Current Time = ", testTime)
 
 
 # First, get the stream raw data from Apple's mediastreamvalidator
-# I still need the time and url to be inputtable
-
-testTime = 1
-testURL = "https://www.ooftv.net/live/oof.m3u8"
-os.system('mediastreamvalidator -t ' + str(testTime) + ' ' + testURL)
 # mediastream options:
 # -t lets you set a time;
 # -i is for immediate, useful for live streams
+os.system('mediastreamvalidator -t ' + str(testTime) + ' ' + testURL)
 
 # get a timestamp for reference
 timestamp = datetime.now()
