@@ -2,6 +2,12 @@
 
 import os, getopt, sys
 from datetime import datetime
+# =================================
+# First try to get the stream health (is something streaming or not)
+# =================================
+# =================================
+# Then try to see if the video server is playing videos
+# =================================
 
 # Default variables
 testTime = 1
@@ -53,3 +59,8 @@ print(logfilesdata)
 
 # move the outputted json file to the data directory
 # os.rename("validation_data.json", str(logfilesdata) + str(timestamp) + "validation_data.json"
+
+# =================================
+# check vlc log,
+# do something if it can't read it or there's an error, fi
+# find a cue in the log to have a heartbeat to track
